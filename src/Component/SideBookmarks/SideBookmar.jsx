@@ -1,9 +1,13 @@
 import React from 'react';
 
-const SideBookmar = () => {
+const SideBookmar = ({bookmark}) => {
     return (
         <div>
-            <h2>BookMark Count: </h2>
+            <h2>BookMark Data: {bookmark.id}</h2>
+            <div>
+                <p>
+                </p>
+            </div>
         </div>
     );
 };
